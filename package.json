@@ -1,0 +1,27 @@
+{
+  "name": "introduction-to-graphql",
+  "version": "1.0.0",
+  "description": "A project to learn and dive into GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorSobol/Introduction-to-graphql.git"
+  },
+  "author": "Sobol Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorSobol/Introduction-to-graphql/issues"
+  },
+  "homepage": "https://github.com/IgorSobol/Introduction-to-graphql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.17",
+    "nodemon": "^1.18.10"
+  }
+}
